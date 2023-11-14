@@ -1,0 +1,72 @@
+body {
+    background-color:gainsboro
+}
+
+.paiDoMine{
+    padding-top: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.quadradaoDoMine {
+    width: 20vw;
+    height: 10vw;
+    background-color:antiquewhite;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.Cadastro {
+    width: 20vw;
+    height: 18vw;
+    background-color:antiquewhite;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+.negrito {
+    font-weight: bold;
+}
+
+.descricao {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    padding: 2vw;
+}
+
+.w100{
+    width: 75%;
+}
+
+.campo input {
+    margin: 1vw 1vw;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 1px solid black;
+}
+
+.campo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.butao {
+    color:black;
+    width: 100px;
+    border-radius: 7px;
+    font-size: 1.6;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    display: flex;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eleição</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+    <div class="descricao">
+        <h1>eleição</h1>
+        <h5>(por favor iniciar o xampp com C://xampp/php/php, não usar "cd" para entrar na pasta php)</h5>
+    </div>
+    <div class="paiDoMine">
+        <form
+              action="http://localhost:5000/Eleição/php/salva.php"
+              method="get"
+            >
+            <div class="quadradaoDoMine">
+                <div class="campo">
+                    <label class="negrito" for="candidato">numero Candidato</label><br/>
+                    <input class="w100" type="text" placeholder="numero Candidato:" name="numero_Candidato" id="numero_Candidato" required /> <br/>
+                </div>
+
+                <div class="campo">
+                    <label class="negrito" for="email">Email</label><br/>
+                    <input class="w100" type="text" placeholder="Email:" name="Email" id="Email" required /> <br/>
+                </div>
+                <div class="butao">
+                    <label class="negrito" for="submit"></label><br/>
+                    <input class="w100" type="submit" placeholder="Votar:" name="Votar" id="Votar" required /> <br/>   
+                </div>
+            </div>
+          </form>
+    </div>
+
+    <div class="paiDoMine">
+        <div class="Cadastro">
+            <form
+              action="http://localhost:5000/eleição/php/cadastroCand.php"
+              method="get"
+            >
+            <div class="quadradaoDoMine">
+                <h2>Cadastrar candidato</h2>
+                <div class="campo">
+                    <label class="negrito" for="candidato">Nome Candidato</label><br/>
+                    <input class="w100" type="text" placeholder="Nome Candidato:" name="name_cand" id="name_cand" required /> <br/>
+                </div>
+
+                <div class="campo">
+                    <label class="negrito" for="email">numero Candidato</label><br/>
+                    <input class="w100" type="text" placeholder="numero Candidato:" name="num_cand" id="num_cand" required /> <br/>
+                </div>
+                <div class="butao">
+                    <label class="negrito" for="submit"></label><br/>
+                    <input class="w100" type="submit" placeholder="Votar:" name="Votar" id="Votar" required /> <br/>   
+                </div>
+            </div>
+          </form>
+        </div>
+    </div>
+
+    <div class="paiDoMine">
+        <div class="quadradaoDoMine">
+            <div>
+                <a href="http://localhost:5000/Eleição/php/consulta.php">Acessar votos</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
